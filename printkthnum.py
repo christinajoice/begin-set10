@@ -1,8 +1,4 @@
-n=int(input("Enter no. of values"))
-k=int(input("Enter search values"))
-li=[]
-print("Enter values")
-for i in range(0,n):
-  li.append(input())
+n,k=map(int,input().split())
+li=list(map(int,input().split()))
 print(li[k-1])
             
