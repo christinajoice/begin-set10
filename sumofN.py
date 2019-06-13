@@ -1,5 +1,6 @@
-n=int(input("Enter the no. of values"))
+n=int(input())
+arr=list(map(int,input().split()))
 sum=0
-for i in range(0,n):
-  sum=sum+int(input())
+for i in arr:
+  sum=sum+i
 print(sum)
