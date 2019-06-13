@@ -1,3 +1,3 @@
 cel=int(input())
-cel=str(cel+273)+"K"
+cel=cel+273
 print(cel)
