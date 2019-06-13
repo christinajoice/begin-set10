@@ -1,4 +1,2 @@
-a=int(input("Enter a number"))
-b=int(input("Enter number b"))
-c=int(input("Enter number c"))
+a,b,c=map(int,input().split())
 print ((a*b)%c)
