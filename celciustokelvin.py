@@ -1,2 +1,3 @@
-cel=int(input("Enter temperature in celsius"))
-print(cel+273,"K")
+cel=int(input())
+cel=str(cel+273)+"K"
+print(cel)
