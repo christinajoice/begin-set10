@@ -1,2 +1,3 @@
-n=input("Enter a number")
+#christinajoice
+n=input()
 print(int(n[::-1]))
